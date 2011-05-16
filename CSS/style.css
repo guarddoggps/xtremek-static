@@ -280,8 +280,8 @@ float: right;
   margin: 0 auto;
   width: 280px;
   padding: 16px 26px 16px 26px;
-  margin-top: 62px;
-  margin-bottom: 80px;
+  margin-top: 48px;
+  margin-bottom: 62px;
   background-color: #eee;
   border-radius: 15px;
   border: 2px solid white;
@@ -314,7 +314,6 @@ float: right;
 
 .field input[type="submit"] {
   float: right;
-  /*margin-right: 12px;*/
 }
 
 	

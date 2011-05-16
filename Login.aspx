@@ -76,9 +76,13 @@
           <asp:TextBox ID="txtPassword" Width="150px" CssClass="form_text_box" runat="server" TextMode="Password"></asp:TextBox>
       	</div>
 	   
-        <div id="login-link" class="field">
+        <div class="field">
           <a id="forgot-password-link" href="ForgotPassword.aspx">Forgot your password?</a>
           <asp:Button ID="btnLogin" runat="server" Text="Login" OnClick="btnLogin_Click"/>
+        </div>
+
+        <div class="field">
+          <p></p>
         </div>
 
         <div id="no-account" class="field">
@@ -92,58 +96,6 @@
 	    <div id="socialmedia"><a href="http://www.facebook.com/pages/Guard-Dog-GPS/118770118204831"><img src="Images/facebook.png" alt="Find Us" border="0"/></a><a href="http://twitter.com/#!/GuardDogGPS"><img src="Images/twitter.png" alt="Follow Us" border="0"/></a></div>
 	  </div>
   </div>
-
-    <%--
-    <div class="page"> 
-        <div id="login_page_header">
-            <a class="logo_abc" href="http://alarmasabc.net"></a>
-            <div class="logo_xtremek"></div> 
-        </div> 
-
-        <div class="login_page_floater"></div> 
-	
-        <div class="login_page_wrap">
-			<div class="login_page_form">
-				<div class="login_page_center">
-					<div class="login_page_label">
-					    User Name:
-					    
-                    </div>
-					<div class="login_page_tfield">
-					    <asp:TextBox ID="txtLogin" Width="150px" CssClass="form_text_box" runat="server"></asp:TextBox>
-					</div>
-					<div class="login_page_label">
-					    Password:
-					</div>
-					<div class="login_page_tfield">
-
-					</div>
-					<div class="login_page_label"></div>
-					<div class="login_page_tfield">					
-
-					</div>
-					<div class="login_page_label"></div>
-					<div class="login_page_tfield">
-					    <a href="PasswordRetrive.aspx" >Forgot your password?</a>
-					</div>
-					<div style="margin-left: 0px; width: 80px;" class="login_page_label"></div>
-					<div class="login_page_message">
-					    <asp:Label ID="lblMessage" CssClass="form_label" runat="server"></asp:Label>
-					</div>
-					<div style="width: 84px" class="login_page_label"></div>
-					<div class="login_page_tfield_link">
-					    <a href="NewAccount.aspx" >Create new account</a>
-					</div>
-
-					<div class="login_page_terms">
-						<div>By clicking "Submit" you agree to the following <a href="TermsAndConditions.aspx">Terms and Conditions</a></div>
-					</div>
-				</div>	
-            </div>
-        </div> 
-
-    </div> 
-    --%>
 </form>
 </body>
 </html>
