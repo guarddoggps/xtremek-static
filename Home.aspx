@@ -414,10 +414,10 @@
 	</script>
  
 <div class="page"> 
-
-	<div class="header">	
-		<a href="http://alarmasabc.net/" target="_blank"><img class="logo_abc" src="Images/logo_abc.png"/></a>
-		<img class="logo_xtremek" src="Images/logo_xtremek.png"/>
+  <div class="header">	
+	  <div id="logo">
+	    <a href="http://guarddoggps.com/"><img src="Images/guard-dog-logo.png" alt="Guard Dog Logo" border="0"/></a>
+	  </div>
 
       	<%--<div class="timeDiv">
         	<div>
@@ -429,7 +429,7 @@
        	</div>--%>
 
 		<div class="header_buttons">
-			<div class="welcome">Welcome: <asp:Label ID="_lblUserName" runat="server"></asp:Label></div>
+			<!--<div class="welcome">Welcome: <asp:Label ID="_lblUserName" runat="server"></asp:Label></div>-->
 			
 			<div class="header_button">				
 				<asp:ImageButton ID="_btnEmail" runat="server" OnClientClick="ReLoadWindow('CompanyAdmin/ContactUs.aspx','Contact Us',460,450); return false;" ImageUrl="Images/mail_up.jpg" onmouseover="this.src='Images/mail_over.jpg';" onmouseout="this.src='Images/mail_up.jpg';"/>			             	    

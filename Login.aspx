@@ -32,7 +32,7 @@
 	<div class="main">
     <div class="header">
 	    <div id="logo">
-	    	<a href="index.html"><img src="Images/guard-dog-logo.png" alt="Guard Dog Logo" border="0"/></a>
+	    	<a href="http://guarddoggps.com/"><img src="Images/guard-dog-logo.png" alt="Guard Dog Logo" border="0"/></a>
 	    </div>
 		  <div class="slogan2"><img src="Images/smart-reliable.png" alt="Smart, Reliable, Easy to Install"/></div>
 		  <p><br />

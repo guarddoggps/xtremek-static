@@ -3,29 +3,41 @@
 	height:100%; 
 	margin:0 auto; 
 	width:100%;
-	background-image: url('../Images/background.png');
+	/*background-image: url('../Images/background.png');
 	background-repeat:repeat;
-	background-color:#FDB94E; 
+	background-color:#FDB94E; */
+  background-color: #fff;
 	overflow:hidden;
 } 
 
 .header { 
 	clear:both; 
-	width:100%;
-	height: 106px;
+	width: 100%;
+	height: 118px;
 	border-bottom: 2px solid gray;
-	background-image: url('../Images/header.png');
-	background-repeat:repeat-x;
+  background-image: url('../Images/mainbk.png')
+	background-repeat: repeat;
+	/*background-image: url('../Images/header.png');*/
 } 
 
 .header_buttons { 
-	width:100%; 
-	height:8%;
+	width: 480px; 
+	height: 8%;
 	background-repeat:no-repeat;
+  float: right;
+  position: relative;
+  top: 80px;
+  right: 0px;
 } 
 
+.header_button {
+	float: right;
+	height: 40px;
+	border-right: 1px solid #808080;
+}
+
 .down_nav_li_a {
-    font-size: 15px;
+  font-size: 15px;
 	width:100px;
 	display: block ;
 	padding:5px 0 6px 5px ;
@@ -40,13 +52,6 @@
 .body_bg {
 	height:500px;		
 	background-repeat:no-repeat;
-}
-
-.header_button {
-	float:right;
-	height:40px;
-	margin-top:68px;
-	border-right: 1px solid #808080;
 }
 
 .footer_button
@@ -80,35 +85,27 @@
 
 .logout {
 	position: absolute;
-    top: 12px;
-    right: 26px;
-    bottom: auto;
-    left: auto;
-	width:10%;
-	height:20px;
-	text-align:right;
-	font-family:Trebuchet MS;
-	text-decoration:none;
-	color:black;
-	font-size:13px;
+  top: 12px;
+  right: 26px;
+  bottom: auto;
+  left: auto;
+	width: 10%;
+	height: 20px;
+	text-align: right;
+	font-family: Trebuchet MS;
+	text-decoration: none;
+	color: black;
+	font-size: 13px;
 	font-weight: bold; 
 }
 
 
-.logo_abc { 
-	position: absolute;
-	top: 4px;
-	left: 10px; 
-	width: 78px;
+#logo { 
+  padding-left: 12px;
+  padding-top: 4px;
 	border: none;
+  float: left;
 } 
-.logo_xtremek
-{
-	position: absolute;
-	top: 34px;
-	left: -2px;
-	width:140px;
-}
 
 .time {
 	float:right;
@@ -208,8 +205,8 @@ border:3px solid #616c70;
 
 .timeDiv
 {
-    position: absolute;
-    text-align: center;
+  position: absolute;
+  text-align: center;
 	height: 30px;
 	top: 75px;
 	right: 486px;
@@ -229,10 +226,10 @@ border:3px solid #616c70;
 
 .masterd {
 	overflow: hidden;
-    position: absolute;
+  position: absolute;
 	width: auto;
 	height: auto;
-	top: 108px;
+	top: 120px;
 	left: 0px;
 	right: 0px;
 	bottom: 0px;
