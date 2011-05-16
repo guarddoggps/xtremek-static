@@ -279,7 +279,7 @@ float: right;
   /*border: 1px solid gray;*/
   margin: 0 auto;
   width: 280px;
-  padding: 16px 26px 16px 26px;
+  padding: 16px 26px 18px 26px;
   margin-top: 48px;
   margin-bottom: 62px;
   background-color: #eee;
@@ -288,12 +288,30 @@ float: right;
 }
 
 .field {
-  padding-top: 16px;
+  padding-top: 6px;
+  width: 100%;
+  height: 26px;
+}
+
+
+.field a {
+  color: #FF6600;
+}
+
+
+#error-field {
+  text-align: center;
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 6px;
+}
+
+.error_label {
+  background: #FFFF99;
 }
 
 #forgot-password-link {
   margin-top: 4px;
-  color: #00438A;
   text-decoration: underline;
   font-size: 0.9em;
   text-align: right;
@@ -307,8 +325,8 @@ float: right;
 }
 
 #no-account.field {
-  padding-top: 32px;
   text-align: center;
+  height: 2.6em;
 }
 
 

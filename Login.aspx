@@ -62,18 +62,17 @@
 	    </div>
 	  </div>
 	  <div>
-      <div id="center">
-        <div id="login">
+      <div id="login">
         <h2>Login</h2>
 
         <div class="field">
           <label>Username:</label>
-			    <asp:TextBox ID="txtLogin" Width="150px" CssClass="form_text_box" runat="server"></asp:TextBox>
+			    <asp:TextBox ID="txtLogin" Width="150px" runat="server"></asp:TextBox>
         </div>
 
         <div class="field">
           <label>Password:</label>					    
-          <asp:TextBox ID="txtPassword" Width="150px" CssClass="form_text_box" runat="server" TextMode="Password"></asp:TextBox>
+          <asp:TextBox ID="txtPassword" Width="150px" runat="server" TextMode="Password"></asp:TextBox>
       	</div>
 	   
         <div class="field">
@@ -81,15 +80,13 @@
           <asp:Button ID="btnLogin" runat="server" Text="Login" OnClick="btnLogin_Click"/>
         </div>
 
-        <div class="field">
-          <p></p>
+        <div class="field" id="error-field">
+					<asp:Label ID="lblMessage" CssClass="error_label" runat="server"></asp:Label>
         </div>
 
         <div id="no-account" class="field">
-          <p>Don't have an account? <a href="Activate.aspx">Activate</a> your account now!
+          Don't have an account? <a href="Activate.aspx">Activate</a> your account now!
         </div>
-        </div>
-
       </div>
     </div>
 	  <div class="footer"><div class="footer-left">Copyright © 2011 Guard Dog. All rights reserved.</div>

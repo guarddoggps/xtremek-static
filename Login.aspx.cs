@@ -20,6 +20,7 @@ public partial class Login : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+
 		// Called upon a postback (such as a button click)
         if (IsPostBack)
         {
@@ -32,7 +33,7 @@ public partial class Login : System.Web.UI.Page
 		}
 		else
 		{
-        	//txtLogin.Focus();
+        	txtLogin.Focus();
 		}
     }
 
@@ -43,7 +44,7 @@ public partial class Login : System.Web.UI.Page
 
     private void loginUser()
     {
-       /* bool success = false;
+        bool success = false;
         DataSet ds = new DataSet();
         AlarmasABC.Core.Admin.Login login = new AlarmasABC.Core.Admin.Login();
         ProcessLogin processLogin = new ProcessLogin();
@@ -69,7 +70,7 @@ public partial class Login : System.Web.UI.Page
             }
             else
             {
-                lblMessage.Text = "Invalid user name or password.";
+                lblMessage.Text = "Invalid user name or password!";
                 lblMessage.ForeColor = System.Drawing.Color.Red;
             }
         }
@@ -89,6 +90,6 @@ public partial class Login : System.Web.UI.Page
         if (success)
         {
             Response.Redirect("Home.aspx");
-        }*/
+        }
     }
 }
