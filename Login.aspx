@@ -8,16 +8,6 @@
     <!--<link href="CSS/XtremeKLogin.css" rel="stylesheet" type="text/css" />-->
 	<link href="CSS/style.css" rel="stylesheet" type="text/css" />
 	<link href="CSS/top-bar.css" rel="stylesheet" type="text/css" />
-
-    <style type="text/css"> 
-
-        html,body,form
-        { 
-            overflow: hidden;
-            height:100%;
-        } 
- 
-    </style>
     <script type="text/javascript">
      
 		// Get the client time zone and set the hidden
@@ -73,18 +63,27 @@
 	  </div>
 	  <div>
       <div id="center">
+        <div id="login">
+        <h2>Login</h2>
+
         <div class="field">
-          <label>User name</label>
+          <label>Username:</label>
 			    <asp:TextBox ID="txtLogin" Width="150px" CssClass="form_text_box" runat="server"></asp:TextBox>
         </div>
 
         <div class="field">
-          <label>Password</label>					    
+          <label>Password:</label>					    
           <asp:TextBox ID="txtPassword" Width="150px" CssClass="form_text_box" runat="server" TextMode="Password"></asp:TextBox>
       	</div>
 	   
-        <div class="field">
-          <asp:ImageButton ID="btnLogin" runat="server" ImageUrl="Images/submit.png" OnClick="btnLogin_Click"/>
+        <div id="login-link" class="field">
+          <a id="forgot-password-link" href="ForgotPassword.aspx">Forgot your password?</a>
+          <asp:Button ID="btnLogin" runat="server" Text="Login" OnClick="btnLogin_Click"/>
+        </div>
+
+        <div id="no-account" class="field">
+          <p>Don't have an account? <a href="Activate.aspx">Activate</a> your account now!
+        </div>
         </div>
 
       </div>
@@ -107,14 +106,14 @@
 			<div class="login_page_form">
 				<div class="login_page_center">
 					<div class="login_page_label">
-					    User name
+					    User Name:
 					    
                     </div>
 					<div class="login_page_tfield">
 					    <asp:TextBox ID="txtLogin" Width="150px" CssClass="form_text_box" runat="server"></asp:TextBox>
 					</div>
 					<div class="login_page_label">
-					    Password
+					    Password:
 					</div>
 					<div class="login_page_tfield">
 
