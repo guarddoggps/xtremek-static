@@ -1,0 +1,201 @@
+﻿.page { 
+background:#AAA; 
+height:100%; 
+margin:0 auto; 
+width:100%;
+background-image:url('../images/bg.gif');
+background-repeat:repeat-x;
+background-color:#475558; 
+} 
+
+.form_TextBox
+{
+	border: solid 1px #e5e5e5;
+	background-color: #fff;
+	overflow:visible;
+	width: 160px;
+	height:22px;
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+	vertical-align:middle;
+}
+
+form label
+{
+	width: 125px;
+	height: 35px;
+	font-family:Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	cursor: default;
+	float: left;
+	margin-top: 8px;
+	margin-left:5px;
+}
+
+.LabelText
+{
+	
+	font-family:Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	cursor: default;	
+}
+
+.header { 
+clear:both; 
+width:100%; 
+height:15%;
+} 
+
+.logo_a { 
+float:left; 
+height:80%; 
+width:24%;
+margin-left:30px;
+background-image:url('../images/banner.gif');
+background-repeat:no-repeat; 
+} 
+
+.menu { 
+float:left; 
+height:76%; 
+width:15.5%;
+border-top-width:0px; 
+} 
+
+.content { 
+float:left; 
+height:76%; 
+width:74%;
+background-image:url('../images/login.gif');
+background-repeat:no-repeat;
+} 
+
+.mid_space {
+	width:100%;
+	height:100px;
+}
+
+.mid_content {
+	width:100%;
+	height:300px;
+}
+
+.side_a {
+	float:left;
+	width:220px;
+	height:100%;
+}
+
+.side_b {
+	float:left;
+	width:390px;
+	height:100%;
+}
+
+.uname {
+	float:left;
+	width:100px;
+	height:20px;
+	margin-top:5px;
+	font-family:"Myriad Pro";
+	font-size:14px;
+	color:#000000;
+	text-align:center;
+	
+}
+
+.tfield {
+	float:left;
+	width:200px;
+	height:20px;
+	margin-top:10px;
+	font-family:"Myriad Pro";
+	font-size:14px;
+	color:#000000;
+	
+}
+
+.tfield a {
+	color:#4087a5;
+}
+
+.uname_p {
+	float:left;
+	width:100px;
+	height:20px;
+	margin-top:10px;
+	font-family:"Myriad Pro";
+	font-size:14px;
+	color:#000000;
+	text-align:center;
+	
+}
+
+.tfield_p {
+	float:left;
+	width:200px;
+	height:20px;
+	margin-top:10px;
+	font-family:"Myriad Pro";
+	font-size:14px;
+	color:#000000;
+	
+}
+
+.tfield_p a {
+	color:#4087a5;
+}
+
+.uname_a {
+	float:left;
+	width:100px;
+	height:20px;
+	margin-top:55px;
+	
+}
+
+.tfield_a {
+	float:left;
+	width:200px;
+	height:20px;
+	margin-top:55px;
+	font-family:"Myriad Pro";
+	font-size:14px;
+	color:#000000;
+	
+}
+
+.tfield_a a {
+	color:#40768d;
+}
+
+.uname_i {
+	float:left;
+	width:100px;
+	height:20px;
+	margin-top:5px;
+	
+}
+
+.tfield_i {
+	float:left;
+	width:200px;
+	height:20px;
+	color:Red;
+	margin-top:5px;
+	font-family:"Myriad Pro";
+	font-size:14px;
+}
+
+.side_c { 
+float:left; 
+height:76%; 
+width:9.5%;
+border-top-width:0px; 
+} 

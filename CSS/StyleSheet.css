@@ -1,0 +1,243 @@
+.page { 
+	background:#AAA; 
+	height:100%; 
+	margin:0 auto; 
+	width:100%;
+	background-image: url('../Images/background.png');
+	background-repeat:repeat;
+	background-color:#FDB94E; 
+	overflow:hidden;
+} 
+
+.header { 
+	clear:both; 
+	width:100%;
+	height: 106px;
+	border-bottom: 2px solid gray;
+	background-image: url('../Images/header.png');
+	background-repeat:repeat-x;
+} 
+
+.header_buttons { 
+	width:100%; 
+	height:8%;
+	background-repeat:no-repeat;
+} 
+
+.down_nav_li_a {
+    font-size: 15px;
+	width:100px;
+	display: block ;
+	padding:5px 0 6px 5px ;
+	background: url('../Images/arrow.gif') no-repeat 5px 8px;
+	background-position: right;
+	color: #d5d5d5;
+	border-bottom:1px solid #3a4446;
+	text-decoration:none;
+	
+}
+
+.body_bg {
+	height:500px;		
+	background-repeat:no-repeat;
+}
+
+.header_button {
+	float:right;
+	height:40px;
+	margin-top:68px;
+	border-right: 1px solid #808080;
+}
+
+.footer_button
+{
+	float: left;
+	padding-left: 25px;
+	padding-top: 6px;
+	padding-right: 5px;
+	width: 180px;
+}
+
+.footer_buttons {
+	position: absolute;
+	width: 640px;
+	height: 70px; 
+	text-align: left;
+	left: 50%;
+	margin-left: -310px;
+	z-index: 3000;
+}
+
+.welcome {
+	float:left;
+	font-family:Trebuchet MS;
+	color: black;
+	font-size:16px;
+	font-weight:bold;
+	margin-top:78px;
+	margin-left:16px;
+}
+
+.logout {
+	position: absolute;
+    top: 12px;
+    right: 26px;
+    bottom: auto;
+    left: auto;
+	width:10%;
+	height:20px;
+	text-align:right;
+	font-family:Trebuchet MS;
+	text-decoration:none;
+	color:black;
+	font-size:13px;
+	font-weight: bold; 
+}
+
+
+.logo_abc { 
+	position: absolute;
+	top: 4px;
+	left: 10px; 
+	width: 78px;
+	border: none;
+} 
+.logo_xtremek
+{
+	position: absolute;
+	top: 34px;
+	left: -2px;
+	width:140px;
+}
+
+.time {
+	float:right;
+	margin-top:20px;
+	
+}
+
+
+.menu { 
+	float:left; 
+	height:100%; 
+	width:18.8%;
+	border-top-width:0px; 
+	border-right:3px solid #616c70;
+} 
+
+.nav {
+	width:99%;
+	height:100%;
+}
+
+.icon {
+	width:10%;
+	height:16px;
+	float:left;
+	margin-left:15px;
+	margin-top:10px;
+}
+
+.menulink {
+	width:70%;
+	height:20px;		
+	font-size:14px;
+	padding-left:15px;
+	padding-top:2px;
+	vertical-align:text-bottom;
+}
+
+.menulink a {
+	color:White;
+	text-decoration:underline;
+}
+.link {
+	width:100%;
+	height:40px;
+	background-image:url('../Images/Nav.gif');
+	background-repeat:no-repeat;
+	text-align:left;	
+	text-indent:5px;
+	
+}
+
+.linked
+{
+       color:White; 
+}
+
+
+.menuHeader
+{
+	font: bold 13px/24px "Segoe UI", Arial, sans-serif !important;
+	width:100%;
+	height: 26px;
+	background: url('../CSS/FormImages/header.png');
+	background-repeat: repeat-x;
+}
+
+.menuHeader:hover
+{
+	color: black !important;
+	background: url('../CSS/FormImages/header.png') !important;
+}
+
+.content { 
+float:left; 
+height:100%; 
+width:100%;
+border:3px solid #616c70;
+ 
+} 
+
+.footer {
+	background-image:url('../Images/footer.png');
+	background-repeat:repeat-x;     
+    width: 100%;
+    height: 82px;
+	border-top: 2px solid gray;
+}
+
+.button {
+	float:right;
+	width:75px;
+	height:24px;
+	margin-top:5px;
+	margin-right:25px;
+}
+
+.timeDiv
+{
+    position: absolute;
+    text-align: center;
+	height: 30px;
+	top: 75px;
+	right: 486px;
+	font-family: Trebuchet MS;
+	color: #303030;
+	font-size: 10px; 
+	font-weight: bold;
+}
+
+.button_a {
+	float:right;
+	width:75px;
+	height:24px;
+	margin-top:5px;
+	margin-right:5px;
+}
+
+.masterd {
+	overflow: hidden;
+    position: absolute;
+	width: auto;
+	height: auto;
+	top: 108px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.map {
+	background: url('../Images/translucent.png') repeat;
+}

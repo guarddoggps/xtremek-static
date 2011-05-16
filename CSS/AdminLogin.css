@@ -1,0 +1,75 @@
+﻿.container
+{
+    width:500px;
+    margin:10% 0% 20% 25%;      
+    background-image: url(../Images/Forms/formWrapperBg.gif);
+	background-repeat: repeat-x;
+	background-color: #f5f5f5;	  
+}
+
+form label
+{
+	width: 170px;
+	height: 35px;
+	font-family:Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	cursor: default;
+	float: left;
+	margin-top: 8px;
+	margin-left:5px;
+}
+
+.formWrap
+{
+	width: 420px;
+	background-image: url(../Images/Forms/formWrapperBg.gif);
+	background-repeat: repeat-x;
+	background-color: #f5f5f5;	
+}
+
+.container_01
+{
+    width:80%;
+    float:left;
+    margin-left:10px;
+	margin-right:10px;
+	margin-bottom:2px;
+    border-bottom: solid 1px #d6d6d6;	    
+}
+
+.leftDiv
+{    
+  width:20%;
+  float:left;   
+}
+
+.rightDiv
+{
+    width:60%;
+    float:right;
+    margin-top:3px;
+	margin-left:5px;
+    border-left:solid 1px #e5e5e5;    
+}
+
+.btnDiv
+{
+    width:50%;
+    margin-left:10px;
+    float:left;    
+}
+.form_TextBox
+{
+	border: solid 1px #e5e5e5;
+	background-color: #fff;
+	overflow:visible;
+	width: 190px;
+	height:22px;
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+	vertical-align:middle;
+}

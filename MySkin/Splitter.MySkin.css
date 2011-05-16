@@ -1,0 +1,50 @@
+.RadSplitter_MySkin .resizeBar,
+.RadSplitter_MySkin .slideContainerResize,
+.RadSplitter_MySkin .slideContainerResizeHorizontal,
+.RadSplitter_MySkin .resizeBarOver,
+.RadSplitter_MySkin .slideContainerResizeOver,
+.RadSplitter_MySkin .slideContainerResizeOverHorizontal,
+.RadSplitter_MySkin .resizeBarInactive,
+.RadSplitter_MySkin .resizeBarHorizontal,
+.RadSplitter_MySkin .resizeBarOverHorizontal,
+.RadSplitter_MySkin .resizeBarInactiveHorizontal,
+.RadSplitter_MySkin .pane,
+.RadSplitter_MySkin .paneHorizontal
+{
+border: none;
+} 
+
+.RadSplitter_MySkin .resizeBar,
+.RadSplitter_MySkin .slideContainerResize,
+.RadSplitter_MySkin .slideContainerResizeHorizontal,
+.RadSplitter_MySkin .resizeBarOver,
+.RadSplitter_MySkin .slideContainerResizeOver,
+.RadSplitter_MySkin .slideContainerResizeOverHorizontal,
+.RadSplitter_MySkin .resizeBarInactive,
+.RadSplitter_MySkin .resizeBarHorizontal,
+.RadSplitter_MySkin .resizeBarOverHorizontal,
+.RadSplitter_MySkin .resizeBarInactiveHorizontal
+{
+padding: 0;
+background: gray;
+font-size: 1px;
+text-align: center;
+} 
+
+.RadSplitter_MySkin .resizeBarOver,
+.RadSplitter_MySkin .resizeBarOverHorizontal,
+.RadSplitter_MySkin .slideContainerResizeOver,
+.RadSplitter_MySkin .slideContainerResizeOverHorizontal
+{
+ background: #555555;
+} 
+
+.RadSplitter_MySkin .helperBarDrag,
+.RadSplitter_MySkin .helperBarDragHorizontal,
+.RadSplitter_MySkin .helperBarSlideDrag,
+.RadSplitter_MySkin .helperBarSlideDragHorizontal
+{
+font-size: 1px;
+background-color:#BBBBBB;
+opacity: 0.6;
+} 

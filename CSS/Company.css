@@ -1,0 +1,142 @@
+﻿
+.mainContainer
+{
+ width:650px;
+ padding-left:30px;
+ padding-right:30px;
+ margin-top:10px;   
+ float:left;
+ }
+ 
+ .container_01
+ {
+     width:90%;
+     margin-top:5px;
+     border-bottom:solid 1px #999999;
+     float:left;
+     
+ }
+ 
+ .container_11
+ {
+     width:90%;
+     margin-top:5px;
+     height:10px;    
+     float:left;
+ }
+
+ .div0
+ {
+    width:20%;
+    float:left; 
+    margin-bottom:5px;   
+ }
+  
+ .div1
+ {
+    width:40%;
+    float:left; 
+    margin-bottom:5px;   
+ }
+ 
+ .div2
+ {
+    width:40%;
+    float:right;    
+    margin-bottom:5px;
+ }
+ 
+ .btnSave
+ {
+    width:45%;
+    float:left;    
+ }
+ 
+ .btnClear
+ {
+    width:45%;
+    float:right;    
+ }
+
+form label
+{
+	width: 170px;
+	height: 35px;
+	font-family:Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	cursor: default;
+	float: left;
+	margin-top: 8px;
+	margin-left:5px;
+}
+
+.Gridtext
+{
+	
+	font-family:Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	cursor: default;
+	float: left;
+	margin-top: 8px;
+	margin-left:5px;
+}
+
+.form_TextBox
+{
+	border: solid 1px #e5e5e5;
+	background-color: #fff;
+	overflow:visible;
+	height:18px;
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+	vertical-align:middle;
+	margin-left:5px;	
+}
+.form_ddl
+{
+	height: 22px;
+	float: left;
+	margin-top:4px;
+	margin-left:5px;	
+	border-left:solid 1px #e5e5e5;
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+}
+.text01
+{
+	margin-left: 10px; 
+	margin-top: 10px;
+}
+.textOnList
+{
+	margin-left: 30px;
+	border: solid 2px #e5e5e5;
+	background-color: #fff;
+	overflow:visible;
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+}
+
+.text_header
+{
+	margin-left: 15px; 
+	margin-top: 8px;
+    width:40%;
+    float:left; 
+    margin-bottom:8px; 
+    font-weight:bold;
+	color:#e5e5e5; 
+	font-size: 14px; 
+}
+
+

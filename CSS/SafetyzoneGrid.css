@@ -1,0 +1,68 @@
+﻿body {
+	margin-top:15px;
+	padding:0;
+	background-color:#FFFFFF;
+	width:490px;
+	float:left;
+}
+.Header
+{
+    background-image: url(../CSS/FormContainer_Gold/formHeaderBg.gif);
+	background-repeat: repeat-x;
+	background-color: #f5f4e8;
+	font-family: Arial, Verdana, Tahoma, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;
+	height: 20px;
+}
+.SFGCol1
+{
+	color:Black;
+	font-family: Arial, Verdana, Tahoma, Sans-Serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #999999;
+	height: 20px;		
+}
+.SFGCol2
+{
+	color:Black;
+	font-family: Arial, Verdana, Tahoma, Sans-Serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #999999;
+	height: 20px;	
+}
+.SFGCol3
+{
+	color:Black;
+	font-family: Arial, Verdana, Tahoma, Sans-Serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #999999;
+	height: 20px;	
+}
+.SFGCol4
+{
+	color:Black;
+	font-family: Arial, Verdana, Tahoma, Sans-Serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #999999;
+	height: 20px;		
+}
+.button {
+	color:Black;
+	font-family: Arial, Verdana, Tahoma, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+	margin:3px;
+}
+.lblmessage {
+	color:Red;
+	font-family: Arial, Verdana, Tahoma, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+	margin:3px;
+}

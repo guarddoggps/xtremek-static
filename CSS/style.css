@@ -1,0 +1,110 @@
+﻿
+body {
+	background-color:#475558;
+	margin:0;
+	padding:0;
+	background-image:url('../Images/bg.gif');
+	background-repeat:repeat-x;
+	
+}
+
+.container {
+width:1024px;
+margin:auto;
+}
+
+
+.body {
+	width:1024px;
+	height:747px;
+	
+}
+
+.header {
+	height:100px;
+	
+	
+}
+
+.bgimg {
+	width:774px;
+	height:430px;
+	margin-top:50px;
+	margin-left:142px;
+	background-image:url('../Images/login.gif');
+	background-repeat:no-repeat;
+}
+
+.space {
+	height:110px;
+}
+
+.tbox {
+	float:right;
+	width:510px;
+	height:90px;
+}
+
+.text {
+	float:left;
+	width:70px;
+	font-family:"Minion Pro";
+	font-size:14px;
+	color:#000000;
+}
+
+.box {
+	float:right;
+	width:200px;
+	margin-right:235px;
+}
+
+.pass {
+	float:left;
+	width:70px;
+	margin-top:8px;
+	font-family:"Minion Pro";
+	font-size:14px;
+	color:#000000;
+}
+
+.box1 {
+	float:right;
+	width:200px;
+	margin-top:5px;
+	font-family:Tahoma;
+	font-size:13px;
+	margin-right:235px;
+}
+
+.box1 a {
+	color:#4087a5;
+}
+
+.box2 {
+	float:right;
+	width:200px;
+	margin-top:5px;
+	margin-right:200px;
+}
+
+.box3 {
+	float:right;
+	width:180px;
+	margin-top:65px;
+	font-family:Tahoma;
+	font-size:13px;
+	margin-right:235px;
+}
+
+.box3 a {
+	color:#4087a5;
+	text-decoration:none;
+}
+
+.footer {
+	width:1024px;
+	height:77px;
+	text-align:right;
+	margin-top:85px;
+}

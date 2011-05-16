@@ -1,0 +1,216 @@
+
+h6
+{
+	font-family:Trebuchet MS;
+	font-size:8pt;	
+	color:Black;
+	font-weight:normal;
+}
+
+body {
+	margin:0;
+	padding:0;
+	background-color:#FFFFFF;
+	width:490px;
+	float:left;
+}
+
+
+
+
+.heading {
+	width:100%;
+	height:30px;
+	text-align:center;
+	font-family:Verdana;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:18px;
+	margin-top:50px;
+}
+
+.ErrorMessage {
+	width:100%;
+	float:left;	
+	text-align:center;
+	font-family:Trebuchet MS;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:13px;	
+	margin-top:30px;
+}
+
+.side_a {
+	float:right;
+	height:25px;
+	text-align:left;
+	font-family: Verdana;
+	color:#FFFFFF;
+	font-size:14px;
+	margin-left:12px;
+}
+
+.side_b {
+	float:right;
+	width:60%;
+	height:25px;
+	text-align:left;
+	font-family:Verdana;
+	color:#FFFFFF;
+	font-size:14px;
+}
+
+.textbtn {
+	float:left;
+	width:50%;
+	height:25px;
+	text-align:center;
+	font-family:Verdana;
+	color:#FFFFFF;
+	font-size:14px;
+}
+
+.button {
+	float:left;
+	width:15%;
+	height:25px;
+	margin-top:30px;
+	
+}
+
+.button_a {
+	float:left;
+	width:15%;
+	height:25px;
+	margin-top:30px;
+}
+
+.historical_header {
+	width: 96%;
+	height:40px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+.searchbtn {
+	 float:right; 
+	 width:40%;
+}
+
+.button {
+	background-color:#7b9aca;
+	margin:3px;
+	border: 1px solid #487bcd;
+	color:#D5D5D5;
+}
+
+.textfield:hover {background:#afcad1;}
+.textfield:focus {background:#ffffff;}
+
+.Header
+{
+    background-image: url(../CSS/FormContainer_Gold/formHeaderBg.gif);
+	background-repeat: repeat-x;
+	background-color: #f5f4e8;
+	font-family: Arial, Verdana, Tahoma, Sans-Serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000;
+	height: 15px;
+	text-align: center;
+}	
+
+.HisCol
+{
+	font-family: Arial, Verdana, Tahoma, Sans-Serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #303030;
+	width: 10px;		
+}
+
+.Text
+{
+	font-family: Arial, Verdana, Tahoma, Sans-Serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: Black;
+}
+.dateboxtext
+{
+	font-family: Arial, Verdana, Tahoma, Sans-Serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: Black;   
+}
+.datebox
+{
+    border:0;
+    padding:0;
+    width:110px;
+    height:25px;   
+}
+.formSubmitBtn
+{
+	border: 0px;
+	background-color:#7b9aca;
+	font-family: Arial, Verdana, Tahoma, Sans-Serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #fff;
+	width:77px;
+	height:20px;		
+}
+
+.footer
+{
+    height:25px;
+    font-family: Arial, Verdana, Tahoma, Sans-Serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: Black;
+}
+.topbody
+{
+    padding:0;
+    border:0;
+    width:350px;
+}
+.pagebody
+{
+    width:90%;
+    margin-left:15px;
+    float:left;
+    margin-top:10px;    
+}
+div.LinkButton
+{
+    color:Black;
+	font-family: Arial, Verdana, Tahoma, Sans-Serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #999999;
+	height: 20px;
+}
+a {
+	font-family: Arial, Verdana, Tahoma, Sans-Serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #7b9aca;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #7b9aca;
+}
+.gridselected
+{
+	background-image: url(../Images/selectedBg.gif);
+	color:Black;
+	font-family: Arial, Verdana, Tahoma, Sans-Serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #999999;
+	height: 15px;	
+}	    	

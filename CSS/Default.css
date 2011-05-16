@@ -1,0 +1,143 @@
+﻿
+
+/*Header Items Starts */
+.headercontainer
+{
+    width:100%;
+    height:9%;
+    margin: 0;
+    padding: 0;
+    background: url(../Images/bgdtop.png) repeat-x top;    
+}
+.headerleft
+{
+    float:left;    
+    width:48%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+}    
+.headerright
+{
+    float:right;    
+    width:35%;
+    height:100%;
+    margin: 0;
+    padding: 0;   
+}
+.header_p
+{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Verdana, Tahoma, Sans-Serif;
+    font-style: normal; 
+    font-size:0.7em; 
+    text-align: right; 
+    text-indent: 0;
+    color:Black;
+    width: 100%;
+}
+.header_p a
+{
+    color:#36be00;
+    font-family: Arial, Verdana, Tahoma, Sans-Serif;
+    font-style: normal; 
+    font-size: 1em;    
+}
+.header_p a:hover
+{
+    text-decoration:underline;
+}        
+/*Header Items End */
+
+/*Footer Items Starts */
+.footercontainer
+{
+    width:100%;
+	height:8%;   
+    margin: 0;
+    padding: 0;
+    background: url(../Images/bgdtop.png) repeat-x top;    
+}
+.footerleft
+{
+    float:left;    
+    width:85%;
+    height:100%;
+    margin: 0;
+    padding: 0;    
+}
+.footerright
+{
+    float:right;    
+    width:15%;
+    height:100%;
+    margin: 0;
+    padding: 0;       
+}
+.footer_p1
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.footer_p2
+{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Verdana, Tahoma, Sans-Serif;
+    font-weight:bold;     
+    font-size: 0.9em; 
+    text-align:center; 
+    text-indent: 0;
+    width: 100%;
+}
+.footer_p2 a
+{
+    color:#356699;
+    font-family: Arial, Verdana, Tahoma, Sans-Serif;
+    font-style:normal; 
+    font-size: 0.9em;    
+}
+.footer_p2 a:hover
+{
+    text-decoration:underline;
+}
+
+/*Footer Items End */
+
+/* Start  Login Page */
+
+.LoginContainer
+{
+    margin-bottom:5%;
+    margin-left:30%;
+    margin-right:30%;
+    margin-top:25%;    
+}
+.loginContainer_01
+{
+    margin-top:3px;
+    width:100%;
+    float:left;    
+}
+
+.loginDiv1
+{
+    width:40%;
+    float:left;
+}
+
+.loginDiv2
+{
+    width:60%;
+    float:right;    
+}
+
+/* End  Login Page */

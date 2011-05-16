@@ -1,0 +1,22 @@
+.tag_red
+{
+	background: url(../Images/translucent.png) repeat; 
+	font-size:8pt; 
+	border:2px #FF0000 solid; 
+	text-align:center;
+
+	width:64px; 
+
+	/* These only work in Mozilla, Konqueror, and Webkit-based browsers */
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;	
+}
+
+#Map
+{
+	font-family: Arial;
+	font-size: small;
+	position: absolute;
+	margin: 0px 0px 0px 0px;    
+}

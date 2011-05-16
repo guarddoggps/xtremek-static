@@ -1,0 +1,212 @@
+.Green 
+{
+	color:Green !important;		
+	font-size: 12px !important;
+	text-decoration:none !important;
+	font-family:Trebuchet MS !important;
+	font-weight:bold !important;
+	
+}
+.GreenOver .rtIn
+{
+	color:Green !important;	
+	font-family:Trebuchet MS !important;
+	font-size: 12px !important;
+	text-decoration:none !important;
+	font-weight:bold !important;
+}
+
+.GreenSelected .rtIn
+{
+	color:Green !important;	
+	font-family:Trebuchet MS !important;
+	font-size: 12px !important;
+	text-decoration:none !important;
+	font-weight:bold !important;
+}
+
+.Gray 
+{
+	color:Gray !important;	
+	font-family:Trebuchet MS !important;
+	font-size: 12px !important;
+	text-decoration:none !important;
+	font-weight:bold !important;
+}
+
+.GrayOver .rtIn
+{
+	color:Gray !important;	
+	font-family:Trebuchet MS !important;
+	font-size: 12px !important;
+	text-decoration:none !important;
+	font-weight:bold !important;
+}
+
+.GraySelected .rtIn
+{
+	color:Gray !important;	
+	font-family:Trebuchet MS !important;
+	font-size: 12px !important;
+	text-decoration:none !important;
+	font-weight:bold !important;
+}
+
+.Red
+{
+	color:Red !important;	
+	font-family:Trebuchet MS !important;
+	font-size: 12px !important;
+	text-decoration:none !important;
+	font-weight:bold !important;
+}
+ 
+.RedOver .rtIn
+{
+	color:Red !important;	
+	font-family:Trebuchet MS !important;
+	font-size: 12px !important;
+	text-decoration:none !important;
+	font-weight:bold !important;
+}
+
+.RedSelected .rtIn
+{
+	color:Red !important;	
+	font-family:Trebuchet MS !important;
+	font-size: 12px !important;
+	text-decoration:none !important;
+	font-weight:bold !important;
+}
+
+.Yellow
+{
+    color: #C0C000 !important;   
+    font-family:Trebuchet MS !important;
+    font-size: 12px !important;
+    text-decoration:none !important;
+    font-weight:bold !important;
+}
+
+.YellowOver .rtIn
+{
+    color:Yellow !important;   
+    font-family:Trebuchet MS !important;
+    font-size: 12px !important;
+    text-decoration:none !important;
+    font-weight:bold !important;
+}
+
+.YellowSelected .rtIn
+{
+    color:#FFBF00 !important;   
+    font-family:Trebuchet MS !important;
+    font-size: 12px !important;
+    text-decoration:none !important;
+    font-weight:bold !important;
+}
+
+.Black
+{
+	color:Black !important;
+	font-family:Trebuchet MS !important;
+	font-size: 12px !important;
+	text-decoration:none !important;
+	font-weight:bold !important;
+}
+
+.BlackOver
+{
+	color:Black !important;
+	font-family:Trebuchet MS !important;
+	font-size: 12px !important;
+	text-decoration:none !important;
+	font-weight:bold !important;
+}
+
+.BlackSelected
+{
+	color:Black !important;
+	font-family:Trebuchet MS !important;
+	font-size: 12px !important;
+	text-decoration:none !important;
+	font-weight:bold !important;
+}
+
+.zoomWindowSize
+{
+	width:400px;
+	height:300px;	
+}
+
+.bradthColor
+{
+	text-decoration:underline;
+	color:Black;
+	font-family:Trebuchet MS;
+	font-size: 12px;	
+}
+
+/*a:hover
+{
+	color:Black;
+	text-decoration:underline;
+	font-family: Arial, Verdana, Tahoma, Sans-Serif;
+	font-size: 12px;	
+}
+a
+{
+	text-decoration:none;
+	color:Black;
+	font-family: Arial, Verdana, Tahoma, Sans-Serif;
+	font-size: 12px;	
+}*/
+
+.TreeDefault
+{
+	color:Gray !important;
+	font-family:Trebuchet MS !important;
+	font-size: 12px !important;
+	background-color:White !important;
+	text-decoration:none !important;
+	font-weight:bold !important;
+}
+.TreeDefaultOver
+{
+	color:Gray !important;
+	font-family:Trebuchet MS !important;
+	font-size: 12px !important;
+	text-decoration:none !important;
+	font-weight:bold !important;
+}
+
+
+.parentTree
+{
+	color:Black !important;
+	font-family:Trebuchet MS !important;
+	font-size: 12px !important;
+	text-decoration:none !important;		
+	font-weight:bold !important;
+}
+.parentTreeOver
+{
+	color:Black !important;
+	font-family:Trebuchet MS !important;
+	font-size: 12px !important;
+	text-decoration:none !important;
+	font-weight:bold !important;		
+}
+.refresh
+{
+	text-decoration:none;	
+}
+
+.height
+{
+	height:40%;	
+}
+.myCustomCssClass .rtImg 
+{ 
+    background: transparent url('../Images/ItemHoveredBg.gif') no-repeat 0 0; 
+}

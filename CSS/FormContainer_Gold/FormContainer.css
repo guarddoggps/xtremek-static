@@ -1,0 +1,245 @@
+BODY
+{
+	background-color: #fff;
+}
+.formWrapper
+{
+	width: 650px;
+	background-image: url(formWrapperBg.gif);
+	background-repeat: repeat-x;
+	background-color: #f5f4e8;
+	filter: progid:DXImageTransform.Microsoft.dropShadow( Color=d9d9d9,offX=3,offY=3,positive=true);
+
+}
+.formHeader
+{
+	background-image: url(formHeaderBg.gif);
+	width: 650px;
+	height: 30px;
+	font-family: Arial, Verdana, Tahoma, Sans-Serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #848067;
+	cursor: default;
+}
+.formLabel
+{
+	width: 120px;
+	height: 35px;
+	font-family: Arial, Verdana, Tahoma, Sans-Serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #999999;
+	cursor: default;
+	float: left;
+	border-top: solid 1px #ebeae5;
+}
+.inputContainer
+{
+	width: 307px;
+
+	float: left;
+}
+.formSubmitBtn
+{
+	border: 0px;
+	background-image: url(formSubmitBtnBg.gif);
+	background-repeat: no-repeat;
+	font-family: Arial, Verdana, Tahoma, Sans-Serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #fff;
+	height: 25px;
+	width: 115px;
+	margin-left: 18px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.formButtons
+{
+	width: 398px;
+	border-left: solid 1px #e6e6e6;
+	border-top:	solid 1px #e2e2e2;
+	border-right: solid 1px #d6d6d6;
+}
+.formTextBox
+{
+	border: solid 1px #d7d4b8;
+	background-color: #f0efe1;
+	overflow: auto;
+	width: 150px;
+	height: 15px;
+	font-family: Arial, Verdana, Tahoma, Sans-Serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+}
+.cell01
+{
+	width: 160px;
+	height: 35px;
+
+	float: left;
+	border-top: solid 1px #ebeae5;
+}
+.cell011
+{
+	
+	height: 35px;
+
+	float: left;
+	border-top: solid 1px #ebeae5;
+}
+.cell02
+{
+	margin-left: 10px; 
+	margin-top: 07px;
+}
+.text01
+{
+	margin-left: 10px; 
+	margin-top: 10px;
+}
+.textheader
+{
+	margin-left: 18px; 
+	margin-top: 10px;
+}
+.formListBox
+{
+	width: 120px;
+	height: 100px;
+	border-top:	solid 1px #d9a721;
+	border-bottom:	solid 1px #fff; 
+	border-left: solid 1px #e6e6e6;
+	font-family: Arial, Verdana, Tahoma, Sans-Serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #999999;
+	cursor: default;
+	float: left;
+}	
+.listboxcell01
+{
+	width: 177px;
+	border-bottom: solid 1px #fff;
+	border-top:	solid 1px #d9a721;
+	border-right: solid 1px #e6e4cd;
+	float: left;
+}
+.listboxcell02
+{
+	margin-left: 10px; 
+	margin-top: 07px;
+}
+.formAddBtn
+{
+		border-style: none;
+		border-color: inherit;
+		border-width: 0px;
+		background-image: url('formSubmitBtnBg.gif');
+		background-repeat: no-repeat;
+		font-family: Arial, Verdana, Tahoma, Sans-Serif;
+		font-size: 11px;
+		font-weight: normal;
+		color: #fff;
+		height: 20px;
+		width: 20px;
+		margin-left: 1px;
+		margin-top: 2px;
+}
+.formBtn
+{
+	width: 20px;
+	border-left: solid 1px #e6e6e6;
+	border-top:	solid 1px #e2e2e2;
+	border-right: solid 1px #d6d6d6;
+}
+
+
+#divLeft
+{
+	top:200px;
+	margin-left:10px;
+	float:left;	
+	width:300px;
+}
+
+#divRight
+{
+	top:100px;
+	margin-right:0px;
+	float:right;
+	width:300px;	
+}
+.cell1
+{
+	float:left;
+	top:auto;
+	width:100px;	
+}
+.cell12
+{
+	float:right;
+	top:auto;
+	width:100px;	
+}
+
+.CompanyLabel
+{
+	
+		
+	font-family: Arial, Verdana, Tahoma, Sans-Serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #999999;
+	cursor: default;
+	
+}
+.Wrapper
+{
+
+	background-image: url(formWrapperBg.gif);
+	background-repeat: repeat-x;
+	background-color: #f5f4e8;
+	filter: progid:DXImageTransform.Microsoft.dropShadow( Color=d9d9d9,offX=3,offY=3,positive=true);
+}
+
+.formSubmitBtn1
+{
+	border: 0px;
+	background-image: url(formSubmitBtnBg.gif);
+	background-repeat: no-repeat;
+	font-family: Arial, Verdana, Tahoma, Sans-Serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #fff;
+	height: 25px;
+	margin-right: 18px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.Header
+{
+	background-image: url(formHeaderBg.gif);
+	height: 30px;
+	width:100%;
+	font-family: Arial, Verdana, Tahoma, Sans-Serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #848067;
+	cursor: default;
+}
+
+.formLabel1
+{
+
+	height: 35px;
+	font-family: Arial, Verdana, Tahoma, Sans-Serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #999999;
+	cursor: default;
+	float: left;
+	border-top: solid 1px #ebeae5;
+}

@@ -1,0 +1,237 @@
+/* RadMenu MySkin skin */
+
+.RadMenu_MySkin 
+{
+	text-align: left;
+  	background: transparent;
+}
+
+.RadMenu_MySkin_rtl
+{
+	text-align: right;
+}
+
+.RadMenu_MySkin_Context
+{
+	background: none;
+	border: 0;
+}
+
+.RadMenu_MySkin .rmLink,
+.RadMenu_MySkin .rmTemplate
+{
+	line-height: 24px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.RadMenu_MySkin .rmLink:focus,
+.RadMenu_MySkin .rmFocused
+{
+	outline: 0;
+}
+
+.RadMenu_MySkin .rmExpanded
+{
+	position: relative;
+}
+
+.RadMenu_MySkin_rtl .rmExpanded
+{
+	position: static;
+}
+
+.RadMenu_MySkin .rmLink,
+.RadMenu_MySkin .rmTemplate
+{
+	font: normal 13px Arial, sans-serif;
+}
+
+.RadMenu_MySkin .rmGroup .rmLink,
+.RadMenu_MySkin .rmGroup .rmTemplate
+{
+	text-decoration: none;
+	color: #000;
+}
+
+.RadMenu_MySkin .rmRootGroup .rmLink:hover,
+.RadMenu_MySkin .rmRootGroup .rmFocused,
+.RadMenu_MySkin .rmRootGroup .rmExpanded
+{
+	background-image: url('../Images/translucent.png');
+	background-repeat: repeat;
+ 	color: #fff;
+}
+
+.RadMenu_MySkin .rmGroup
+{
+ 	border: 1px solid #979797;
+ 	background-color: #fff;
+}
+
+.RadMenu_MySkin .rmGroup .rmLink:hover,
+.RadMenu_MySkin .rmGroup .rmFocused,
+.RadMenu_MySkin .rmGroup .rmExpanded
+{
+	color: #fff;
+ 	background: #555555;
+}
+
+.RadMenu_MySkin .rmText
+{
+	padding: 3px 15px 5px;
+}
+
+.RadMenu_MySkin .rmGroup .rmLink .rmText
+{
+	font-size: 12px;
+	
+	padding: 4px 16px 4px 6px;
+}
+
+/* <expand arrows styling> */
+
+.RadMenu_MySkin .rmGroup .rmLink .rmExpandRight
+{
+	background: transparent url(Menu/ArrowExpand.gif) no-repeat right -1px;
+}
+
+.RadMenu_MySkin .rmGroup .rmLink .rmExpandLeft
+{
+	background: transparent url(Menu/ArrowExpandRTL.gif) no-repeat left -1px;
+}
+
+.RadMenu_MySkin .rmGroup .rmLink:hover .rmExpandRight,
+.RadMenu_MySkin .rmGroup .rmFocused .rmExpandRight,
+.RadMenu_MySkin .rmGroup .rmExpanded .rmExpandRight
+{
+	background-image: url(Menu/ArrowExpandHovered.gif);
+}
+
+.RadMenu_MySkin .rmGroup .rmLink:hover .rmExpandLeft,
+.RadMenu_MySkin .rmGroup .rmFocused .rmExpandLeft,
+.RadMenu_MySkin .rmGroup .rmExpanded .rmExpandLeft
+{
+	background-image: url(Menu/ArrowExpandHoveredRTL.gif);
+}
+
+/* </expand arrows styling> */
+
+.RadMenu_MySkin .rmHorizontal .rmItem { /*border-right: 1px solid #353535;*/ padding-bottom:1px; }
+.RadMenu_MySkin .rmHorizontal .rmLast { border-right: 0; }
+
+.RadMenu_MySkin .rmVertical .rmItem { border-bottom: 1px solid #353535; }
+.RadMenu_MySkin .rmVertical .rmLast { border-bottom: 2; padding-bottom: 0px; }
+
+.RadMenu_MySkin_rtl .rmHorizontal .rmItem { border-left: 0; }
+
+.RadMenu_MySkin .rmRootGroup .rmGroup .rmItem,
+.RadMenu_MySkin_Context .rmGroup .rmItem
+{ border-right: 0; border-bottom: 0; padding-bottom: 0; }
+
+.RadMenu_MySkin .rmGroup
+{
+	border: 1px solid #828282;
+	background-color: #fff;
+}
+
+.RadMenu_MySkin .rmGroup .rmExpanded
+{
+	z-index: 10000;
+}
+
+.RadMenu_MySkin .rmTopArrow,
+.RadMenu_MySkin .rmBottomArrow
+{
+	height: 10px;
+	width: 100%;
+	background: #fff url(Menu/ArrowScrollUpDown.gif) no-repeat top center;
+}
+
+.RadMenu_MySkin .rmBottomArrow
+{
+	background-position: center -18px;
+}
+
+.RadMenu_MySkin .rmLeftArrow,
+.RadMenu_MySkin .rmRightArrow
+{
+	width: 10px;
+	height: 100%;
+	margin-top: -1px;
+	background: #fff url(Menu/ArrowScrollLeftRight.gif) no-repeat left center;
+}
+
+.RadMenu_MySkin .rmRightArrow
+{
+	background-position: -18px center;
+}
+
+.RadMenu_MySkin .rmItem .rmDisabled .rmText
+{
+	color: #999;
+}
+
+.RadMenu_MySkin .rmRootGroup .rmItem .rmDisabled
+{
+	background: none;
+}
+
+.RadMenu_MySkin .rmGroup .rmItem .rmDisabled
+{
+	background-color: #fff;
+}
+
+.RadMenu_MySkin .rmRootGroup .rmSeparator,
+.RadMenu_MySkin .rmGroup .rmSeparator
+{
+	background: #8f8f8f;
+	border-top: 1px solid #676767;
+	border-bottom: 0;
+}
+
+.RadMenu_MySkin .rmSeparator .rmText
+{
+	display: none;
+}
+
+.RadMenu_MySkin .rmHorizontal .rmSeparator
+{
+	height: 20px;
+	width: 1px;
+	line-height: 20px;
+	border: 0;
+}
+
+.RadMenu_MySkin .rmVertical .rmSeparator
+{
+	height: 1px;
+	margin: 3px 0;
+	border: 0;
+	line-height: 1px;
+}
+
+.RadMenu_MySkin .rmLeftImage
+{
+	margin: 2px;
+}
+
+.RadMenu_MySkin .rmSlide
+{
+	margin: -1px 0 0 -1px !important;
+}
+
+.RadMenu_MySkin .rmHorizontal .rmSlide
+{
+	margin-top: -2px !important;
+}
+
+.RadMenu_MySkin .rmGroup .rmSlide
+{
+	margin: 0 !important;
+}
+
+.RadMenu_MySkin .rmItem .rmDisabled:hover
+{
+	background: none;
+}

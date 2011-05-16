@@ -1,0 +1,252 @@
+.szbody
+{
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	background-color:#f5f5f5;
+	
+}
+.formWrap
+{
+	width: 500px;
+	background-image: url(FormImages/formWrapperBg.gif);
+	background-repeat: repeat-x;
+	background-color: #f5f5f5;	
+}
+.container_01
+{
+	margin-left:10px;
+	margin-right:10px;
+	float:left;
+	width:480px;
+	border-bottom: solid 1px #d6d6d6;	
+}
+.container_02
+{
+    height: 35px;
+}
+
+form label
+{
+	width: 170px;
+	height: 35px;
+	font-family:Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	cursor: default;
+	float: left;
+	margin-top: 8px;
+	margin-left:5px;
+}
+.form_ddl
+{
+	width: 193px;
+	height: 25px;
+	float: left;
+	margin-top:4px;
+	margin-left:5px;	
+	border-left:solid 1px #e5e5e5;
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+}
+.cell_label
+{
+	width: 285px;
+	float: left;
+	margin-top:8px;
+	margin-left:5px;
+	border-left:solid 1px #e5e5e5;
+}
+.cell_label01
+{
+	width: 285px;
+	float: left;
+	margin-left:5px;
+	border-left:solid 1px #e5e5e5;
+}
+.cell_label02
+{
+    float:left;
+	font-family:Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	text-align:left;
+    margin-left:10px;
+    margin-top:8px;	
+}
+.cell_label03
+{
+	width: 285px;
+	float: left;
+	margin-top:5px;
+	margin-left:5px;
+	border-left:solid 1px #e5e5e5;
+}
+.text_01
+{
+	width: 190px;
+	height: 35px;
+	float: left;
+	margin-top: 8px;
+	margin-left:30px;
+	border-left:solid 1px #e5e5e5;
+	font-family: Trebuchet MS;
+	font-size: 12px;
+}
+.form_TextBox
+{
+	border: solid 1px #e5e5e5;
+	background-color: #fff;
+	overflow: auto;
+	width: 190px;
+	height:22px;
+	font-family: Trebuchet MS;
+	font-size: 14px;
+	font-weight: normal;
+	color: #666666;
+	vertical-align:middle;
+}
+.mapsize
+{
+    width:480px;
+    height:100%;
+    margin:8px 10px 0px 10px;
+}
+.radiobutton
+{
+    float:left;
+    width:22px;
+    height:25px;    
+    margin-left:10px;
+    margin-top:8px;   
+}
+.szalign
+{
+    width:100%;
+    text-align:left;    
+    height:100%;
+    margin:8px 0px 8px 0px;
+}
+.szcol01
+{
+    width:70%;
+    height:100%;
+    float:left;
+    text-align:left;
+    margin-left:10px;
+    margin-top:8px;    
+}
+.szcol02
+{
+    width:22%;
+    float: right;
+    margin-left:10px;
+    margin-top:8px;
+    margin-right: 0px;
+    margin-bottom: 10px;     
+}
+.formSubmitBtn
+{
+	border: 0px;
+	background-color:#7b9aca;
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	color: #fff;
+	width:120px;
+	height:25px;	
+}
+.form_AddBtn
+{
+	border: 0px;
+	background-color:#7b9aca;
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	color: #fff;
+	width:20px;
+	height:20px;	
+}
+/* SafetyZone List CSS Starts */  
+.szlisttb1
+{
+    width:530px;
+    text-align:center;
+}
+.szlisttb2
+{
+    height:100px;
+}
+/*Alert CSS Start*/
+.alertinstruction    
+{
+    font-family: Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	cursor: default;
+	float: left;
+	margin-top: 5px;
+	margin-left:5px;
+}
+.alertcontainer
+{
+    height:auto;
+}
+.alertbutton01
+{
+    width:120px;
+    float:left;
+    margin-left:5px;
+    margin-top:5px;
+}
+.alertcheckbox
+{
+    float:left;
+    width:22px;
+    height:21px;
+    margin-left:5px;
+    margin-top:5px;    
+    
+}
+.alertcell_label
+{
+    float:left;
+    font-family: Trebuchet MS;
+	font-size: 12px;
+	text-align:left;
+    margin-left:5px;
+    margin-top:7px;	
+}
+/*Alert CSS Ends*/
+/*Listbox CSS Starts*/
+.formlistbox_a
+{
+    width:200px;
+    float:left;
+    margin-top:8px;
+    margin-left:5px;
+}
+.formlistbox_b
+{
+    width:20px;
+    float:left;
+    margin-top:8px;
+    margin-left:5px;    
+}     
+.formlistbox_c
+{
+    width:200px;
+    float:left;
+    margin-top:8px;
+    margin-left:5px;   
+}
+.formlistbox_d
+{
+    width:200px;
+    height:100px;
+}
+/*Listbox CSS Ends*/

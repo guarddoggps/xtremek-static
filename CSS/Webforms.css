@@ -1,0 +1,395 @@
+ html, body,form {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-color:#f5f5f5;
+}
+.table
+{
+    padding:0em;
+    border:0em;
+    width:100%;
+}
+/*Single Form Page CSS Starts*/
+.formWrap
+{
+	width: 420px;
+	background-image: url(FormImages/formWrapperBg.gif);
+	background-repeat: repeat-x;
+	background-color: #f5f5f5;
+}
+.container_01
+{
+	margin-left:10px;
+	margin-right:10px;
+	float:left;
+	width:400px;
+	border-bottom: solid 1px #d6d6d6;	
+}
+.container_02
+{
+    height: 35px;
+}
+
+.form_label
+{
+	width: 170px;
+	height: 35px;
+	font-family:Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	cursor: default;
+	float: left;
+	margin-top: 8px;
+	margin-left:5px;
+}
+
+.fullWidth
+{
+	width: 98%;
+	font-weight: bold;
+}
+
+.ListBox
+{
+    width: 165px;	
+	font-family:Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	cursor: default;		
+}
+
+.Gridtext
+{
+	
+	font-family:Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	cursor: default;
+	float: left;
+	margin-top: 8px;
+	margin-left:5px;
+}
+.Text
+{
+   	font-family:Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	cursor: default;
+	
+}
+
+.cell_label
+{
+	width: 215px;
+	float: left;
+	margin-top:3px;
+	margin-left:5px;
+	border-left:solid 1px #e5e5e5;
+}
+.text_01
+{
+	width: 190px;
+	height: 35px;
+	float: left;
+	margin-top: 8px;
+	margin-left:30px;
+	border-left:solid 1px #e5e5e5;
+	font-family: Trebuchet MS;
+	font-size: 12px;
+}
+.form_TextBox
+{
+	border: solid 1px #e5e5e5;
+	background-color: #fff;
+	overflow:visible;
+	width: 180px;
+	height:20px;
+	margin-left:2px;
+	margin-top: 6px;
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+	vertical-align:middle;
+}
+
+.form_TextArea
+{
+	border: solid 1px #e5e5e5;
+	background-color: #fff;
+	overflow: visible;	
+	margin-left: 2px;
+	margin-bottom: 10px;
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+	vertical-align: middle;
+}
+
+.form_ddl
+{
+	width: 180px;
+	height: 22px;
+	float: left;
+	margin-top:4px;
+	margin-left:3px;	
+	border-left:solid 1px #e5e5e5;
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+}
+.form_ddl2
+{
+	width: 180px;
+	height: 22px;
+	float: left;
+	margin-top:4px;
+	margin-left:3px;	
+	border-left:solid 1px #e5e5e5;
+	font-family: Trebuchet MS;
+	font-size: 10px;
+	font-weight: normal;
+	color: #666666;
+}
+.form_Header
+{
+	background-image: url(FormImages/formHeaderBg.gif);
+	background-color: #e3e3e3;
+	border-right: solid 1px #d6d6d6;
+	border-bottom: solid 1px #fff;
+	border-top: solid 1px #fff;
+	border-left: solid 1px #d6d6d6;
+	width: 420px;
+	height: 38px;
+	font-family: Trebuchet MS;
+	font-size: 14px;
+	font-weight: bold;
+	color:Navy;
+	cursor: default;
+	float:left;
+}
+.text_header
+{
+	margin-left: 18px; 
+	margin-top: 10px;
+}
+.form_SubmitBtn
+{
+	border: 0px;
+	background-color:#7b9aca;
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	margin-top: 4px;
+	color: #fff;
+	width:100px;
+	height:26px;
+	
+}
+
+.form_InitiateBtn
+{
+	border: 0px;
+	background-color:#7b9aca;
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	color: #fff;	
+	height:26px;
+	
+}
+
+.form_button
+{
+    margin-right: 20px;
+    width:60px;
+    height:24px;
+    margin-top:0px; 
+    float: right;
+    font-family: Trebuchet MS;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.form_AddBtn
+{
+	border: 0px;
+	background-color:#7b9aca;
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	color: #fff;
+	width:20px;
+	height:20px;
+	margin-top:5px;	
+}
+.form_msg
+{
+    width:110px;
+    margin-top:5px;
+}
+.form_msg_txt
+{
+    font-family: Trebuchet MS;
+	font-size: 12px;
+	text-align:left;
+	margin-left:10px;
+}	    
+/*Single Form Page CSS Ends*/
+/*Listbox CSS Starts*/
+.formlistbox_a
+{
+    width:170px;
+    float:left;
+    margin-top:8px;
+    margin-left:5px;
+}
+.formlistbox_b
+{
+    width:20px;
+    float:left;
+    margin-top:8px;
+    margin-left:5px;    
+}     
+.formlistbox_c
+{
+    width:170px;
+    float:left;
+    margin-top:8px;
+    margin-left:5px;   
+}
+.formlistbox_d
+{
+    width:170px;
+    height:100px;
+}
+/*Listbox CSS Ends*/
+/*Checkbox CSS Starts*/
+.formcheckbox
+{
+    float:left;
+    width:22px;
+    height:21px;
+    margin-left:5px;
+    margin-top:5px;    
+    
+}
+.divcell_label
+{
+    float:left;
+    font-family: Trebuchet MS;
+	font-size: 12px;
+	text-align:left;
+    margin-left:5px;
+    margin-top:7px;	
+}
+/*Checkbox CSS Ends*/
+
+/*AssetType Page CSS*/
+.assetcell
+{
+    float:left;
+    margin-top:8px;
+    margin-left:5px;
+}
+.assetcontainer
+{
+    height:100%;
+}
+.assetcontainer01
+{
+    height:40px;
+}
+.assetgrid
+{
+    margin-top:8px;
+    margin-left:5px;
+    margin-bottom:5px;
+}
+.assetbottom
+{
+    height:15px;
+}
+/*AssetType Page CSS*/
+/*RulesSetup Page*/
+.radiobutton
+{
+    float:left;
+    width:22px;
+    height:25px;    
+    margin-left:5px;
+    margin-top:8px;   
+}
+.rl_cell_label
+{
+    float:left;
+	font-family:Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	text-align:left;
+    margin-left:2px;
+    margin-top:8px;	
+}
+.rl_text
+{
+	width: 100%;
+	height: 35px;
+	font-family:Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	cursor: default;
+	float: left;
+	margin-top: 8px;
+	margin-left:5px;
+}
+/*RulesSetup Page Ends*/
+/*RulesAssign Page*/
+.rl_formgrid
+{
+	width: 400px;
+	height:100%;
+	font-family:Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	cursor: default;
+	float: left;
+	border-top: solid 1px #ebeae5;
+}
+.rl_formgrid01
+{
+	width: 400px;
+	font-family:Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	margin-left:5px;
+	color: #000;
+	cursor: default;
+	float: left;
+}
+.rl_container_01
+{
+	margin-left:10px;
+	margin-right:10px;
+	float:left;
+	width:400px;
+}
+.form_msg01
+{
+	width: 400px;
+	font-family:Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	margin-left:5px;
+	color: #000;
+    margin-top:5px;
+}

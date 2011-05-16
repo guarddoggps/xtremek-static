@@ -1,0 +1,281 @@
+/* Default form style */
+html,body,form 
+{ 
+    background:#AAA;  
+    margin:0; 
+    padding:0; 
+    width:100%;
+    background-image: url('../Images/background.png');
+    background-repeat:repeat;
+}
+
+a {
+    color:#40768d;
+    font-family:"Myriad Pro";
+    font-size:14px;
+    text-align: center;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type:none;
+    margin: 0px;
+    padding-left: 10px;
+}
+ 
+/* Page element */
+.page 
+{ 
+	height:100%;  
+} 
+
+/* AlarmasABC logo on the Login page */
+.logo_abc 
+{ 
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	height:60px; 
+	width:140px;
+	background-image: url('../Images/logo_abc.png');
+	background-repeat:no-repeat; 
+} 
+
+/* XtremeK Logo on the Login page */
+.logo_xtremek 
+{
+	position: absolute;
+	top: 4px;
+	left: 146px;
+	height:68px; 
+	width:238px;
+	background-image: url('../Images/logo_xtremek.png');
+	background-repeat:no-repeat; 
+}
+
+
+/* This is the header for the login page */
+.login_page_header 
+{
+    float:right; 
+    width:100%; 
+    text-align:center;
+}
+
+/* This is a floater to help center the login form vertically */
+.login_page_floater 
+{
+    float:left; 
+    height:25%; 
+}
+
+/* This is to wrap the login page elements */
+.login_page_wrap 
+{ 
+    height: 340px; 
+    width: 100%;
+    clear:both;
+    position:relative;
+
+} 
+
+/* This is the form for the login page */
+.login_page_form 
+{
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('../Images/login2.png');
+    background-repeat: no-repeat;  
+    height:100%;
+    width: 380px;
+    vertical-align: middle;
+}
+
+/* Center login page elements */
+.login_page_center 
+{
+    width:320px;
+    height:300px;
+    position: relative;
+    top: 52px;
+    left: 30px;
+}
+
+/* Login page label */
+.login_page_label 
+{
+    float:left;
+    width:100px;
+    height:20px;
+    margin-top:10px;
+    font-family:"Myriad Pro";
+    font-size:14px;
+    color:#000000;
+    text-align:center;
+}
+
+/* Login page message style */
+.login_page_message
+{
+    float:right;
+    width:200px;
+    height:20px;
+    margin-top:10px;
+    margin-right: 40px;
+}
+
+/* Login page text field style */
+.login_page_tfield 
+{
+    float:right;
+    width:150px;
+    height:20px;
+    margin-top:10px;
+    margin-right: 60px;
+}
+
+/* Login page text field link style */
+.login_page_tfield_link a {
+    float:left;
+    height:20px;
+    font-weight:bold;
+    margin-top: 10px;
+    text-decoration:none;
+}
+
+/* This is for the terms box on the login page */
+.login_page_terms 
+{
+    float: left;
+    color: gray; 
+    border: 1px solid #DCDCDC;
+    font-weight: normal; 
+    font-size: 0.8em; 
+    text-align: center; 
+    padding-top: 4px; 
+    margin-left: 10px;
+    width: 300px; 
+    height: 36px;
+}
+
+/* This is the default form header */
+.form_header 
+{
+    margin-left: -2px;
+    margin-top: -2px;
+    background-image: url('../Images/form_header.png');
+    background-repeat:no-repeat; 
+    height:96px;
+    width: 716px;
+}
+
+/* This is the default form footer */
+.form_footer
+{
+    margin-left: -2px;
+    margin-bottom: -2px;
+    background-image: url('../Images/form_footer.png');
+    background-repeat: repeat-x; 
+    height:54px;
+    width: 716px;
+}
+
+/* This establishes content width and centers the child elements */
+.form_wrapper
+{
+    margin-left: auto;
+    margin-right: auto; 
+    width: 712px;
+    vertical-align: middle;
+    background-image: url('../Images/translucent.png');
+    background-repeat: repeat;
+    border: 2px gray solid;
+}
+
+/* This is to center elements in the form wrapper */
+.form_center
+{
+    margin-left: auto;
+    margin-right: auto;
+    height:100%;
+    width: 380px;
+    vertical-align: middle;
+}
+
+/* A wrapper for form fields */
+.form_field
+{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/* Single line text boxes */
+.form_text_box 
+{
+	border: solid 1px #DCDCDC;
+	background-color: #fff;
+	overflow:visible;
+	width: 160px;
+	height:20px;
+    margin-top: -2px;
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+	vertical-align:middle;
+}
+
+/* For multi line text boxes */
+.form_text_area 
+{
+    border: solid 1px #DCDCDC;
+    background-color: #fff;
+    overflow:visible;
+    width: 160px;
+    font-family: Trebuchet MS;
+    font-size: 12px;
+    font-weight: normal;
+    color: #666666;
+    vertical-align:middle;
+}
+
+/* Default label style */
+.form_label {
+	width:160px;
+	height:20px;
+	font-size:14px;
+	color: gray;
+}
+
+/* Default horizontally floating label */
+.form_hlabel {
+	float: left;
+	width:160px;
+	height:20px;
+	font-size:14px;
+	color: gray;
+}
+
+/* Default style for paragraphs */
+.form_paragraph {
+    width: 340px;
+    font-size:14px;
+    color: gray;
+}
+
+/* Default form link style */
+.form_link a
+{
+    color:#40768d;
+    text-decoration:none;
+    margin-left: 20px;
+    font-weight:bold;
+    height: 30px;
+}
+

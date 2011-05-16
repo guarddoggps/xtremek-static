@@ -1,0 +1,82 @@
+
+.RadMenu_MySkin .rmLeftArrow,
+.RadMenu_MySkin .rmRightArrow,
+.RadMenu_MySkin .rmTopArrow,
+.RadMenu_MySkin .rmBottomArrow
+{
+	background-image: url('Menu/rmSprite.png');
+	background-color: transparent;
+}
+
+.RadMenu_MySkin .rmLink
+{
+}
+
+.RadMenu_MySkin .rmGroup a
+{
+	font: normal 12px/23px "Segoe UI", Arial, sans-serif;
+	text-decoration: none;
+	color: #000;
+	cursor: default;
+}
+
+.RadMenu_MySkin
+{
+  	background: transparent;
+} 
+
+.RadMenu_MySkin .rmRootGroup .rmLink:hover,
+.RadMenu_MySkin .rmRootGroup .rmFocused,
+.RadMenu_MySkin .rmRootGroup .rmExpanded
+{
+	background-image: url('../Images/translucent.png');
+	background-repeat: repeat;
+ 	color: #fff;
+} 
+
+.RadMenu_MySkin .rmGroup
+{
+ 	border: 1px solid #979797;
+ 	background-color: #fff;
+} 
+
+.RadMenu_MySkin .rmGroup .rmText
+{
+    padding: 0px 8px 0px 8px !important;
+} 
+
+.RadMenu_MySkin .rmHorizontal .rmItem 
+{ 
+	border-right: none;
+}
+.RadMenu_MySkin .rmVertical .rmItem 
+{ 
+	border-bottom: none;
+} 
+
+
+.RadMenu_MySkin .rmGroup .rmLink:hover,
+.RadMenu_MySkin .rmGroup .rmFocused,
+.RadMenu_MySkin .rmGroup .rmExpanded
+{
+ 	color: #fff;
+ 	background: #555555;
+}
+
+.RadMenu_MySkin .rmTopArrow,
+.RadMenu_MySkin .rmBottomArrow,
+.RadMenu_MySkin .rmGroup .rmLeftArrow,
+.RadMenu_MySkin .rmGroup .rmRightArrow
+{
+	background-color: #ECF4FF;
+}
+
+.RadMenu_MySkin .rmGroup a:hover
+{
+ 	color: #fff;
+ 	background: #555555;
+}
+
+.RadMenu_MySkin .rmTopArrow { background-position: 50% -367px; border-bottom: 1px solid #828282; }
+.RadMenu_MySkin .rmBottomArrow { background-position: 50% -391px; border-top: 1px solid #828282; }
+
