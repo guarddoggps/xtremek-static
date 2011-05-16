@@ -58,9 +58,11 @@
 .RadMenu_MySkin .rmRootGroup .rmFocused,
 .RadMenu_MySkin .rmRootGroup .rmExpanded
 {
-	background-image: url('../Images/translucent.png');
+	/*background-image: url('../Images/translucent.png');
 	background-repeat: repeat;
- 	color: #fff;
+ 	color: #fff;*/
+	background-repeat: repeat;
+  background-color: #FF6600;
 }
 
 .RadMenu_MySkin .rmGroup
@@ -74,7 +76,7 @@
 .RadMenu_MySkin .rmGroup .rmExpanded
 {
 	color: #fff;
- 	background: #555555;
+ 	background: #FF6600;
 }
 
 .RadMenu_MySkin .rmText

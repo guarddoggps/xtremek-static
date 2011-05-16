@@ -416,7 +416,7 @@
 <div class="page"> 
   <div class="header">	
 	  <div id="logo">
-	    <a href="http://guarddoggps.com/"><img src="Images/guard-dog-logo.png" alt="Guard Dog Logo" border="0"/></a>
+	    <a href="http://guarddoggps.com/"><img src="Images/guard-dog-logo-trans.png" alt="Guard Dog Logo" border="0"/></a>
 	  </div>
 
       	<%--<div class="timeDiv">
