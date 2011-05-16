@@ -1,110 +1,277 @@
-﻿
-body {
-	background-color:#475558;
-	margin:0;
-	padding:0;
-	background-image:url('../Images/bg.gif');
-	background-repeat:repeat-x;
+@charset "UTF-8";
+/* CSS Document */
+
+/* Global properties ======================================================== */
+
+body{
+	background-color:#e7e7e7;
+	/*background-image:url(../Images/gradient.jpg);
+	background-repeat: repeat-x;*/
+	border:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.875em; 
+	color:#7f7f7f; 
+	line-height:1.188em;
+	margin-top:0;
+	
+	}
+	
+	#bodyspan{
+	margin-left: 32px;
+	}
+	
+	
+	h1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1.250em; 
+	color:#A7AAAD; 
+	line-height:1.250em;
+	font-weight: bold;
+	letter-spacing: 0em;
+	padding-top: 0px;
+	
+
+
+	}
+	
+	#topheight{
+	line-height: 1.375em;
+	}
+	
+	.price {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1.375em;
+	color:#FF6600;
+	line-height:1.313em;
+	text-align:left;
+	padding-left: 55px;
+	
+	}
+	
+	.disclaimer {
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:italic;
+	font-size:1.064em;
+	color:#FF6600;
+	line-height:1.313em;
+	text-align:left;
+	padding-left: 55px;
+	
+	}
+	
+	
+	.main{
+	background-color:#FFFFFF;
+	width: 945px;
+	text-align: left;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	margin-left: -472px;
+	display: inline;
+	-moz-box-shadow: 0px 0px 5px 5px #cccccc;
+	-webkit-box-shadow: 0px 0px 5px 5px#cccccc;
+	box-shadow: 0px 0px 5px 5px #cccccc;
+	behavior: url(js/PIE.htc);	
+	
+	}
+	
+.header{
+width:100%;
+height: 180px;
+
+}
+
+.footer{
+	width: 945px;
+	height: 50px;
+	position:absolute;
+	left: 50%;
+	margin-left: -472px;
+	margin-top:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#7f7f7f;
+}
+
+.footer-left{
+float:left;
+}
+
+#socialmedia{
+width: auto;
+height: 50px;
+float:right;
+display: inline;
+}
+
+#logo{
+width:350px;
+height: 103px;
+float: left;
+margin-left: 32px;
+margin-top: 20px;
+background: none;
+display:inline;
+}
+
+#menucontainer{
+height: 35px;
+position:absolute;
+top: 157px;
+display:inline-block;
+
+}
+
+#menulogos{
+height: 50px;
+width: 236px;
+}
+
+
+
+.banner{
+height: 326px;
+background-color:#999999;
+width: 100%;
+}
+
+.slogan{
+width: 235px;
+height: 41px;
+float:right;
+margin-top: 38px;
+margin-right: 32px;
+}
+
+.slogan2{
+width: 213px;
+height: 113px;
+float:right;
+margin-top: 18px;
+margin-right: 32px;
+}
+
+.halfbanner{
+height: 233px;
+width: 100%;
+background-color:#999999;
+}
+
+
+
+
+a:link {text-decoration: none; font-family:Arial, Helvetica, sans-serif; font-size: 1.000em; color: #a7a9ac; font-weight: bold; }
+a:visited {text-decoration: none; font-family:Arial, Helvetica, sans-serif; font-size: 1.000em; color: #a7a9ac; font-weight: bold;}
+a:active {text-decoration: none; font-family:Arial, Helvetica, sans-serif; font-size: 1.000em; color: #a7a9ac; font-weight: bold;}
+a:hover {text-decoration: none; font-family:Arial, Helvetica, sans-serif; font-size: 1.000em; color: #ff6600; font-weight: bold;}
+
+a.linkmenu:main {text-decoration: none; font-family:Arial, Helvetica, sans-serif; font-size:1.000em; color: #a7a9ac; font-weight: bold; }
+a.linkmenu:visited {text-decoration: none; font-family:Arial, Helvetica, sans-serif; font-size:1.000em; color: #a7a9ac; font-weight: bold;}
+a.linkmenu:active {text-decoration: none; font-family:Arial, Helvetica, sans-serif; font-size:1.000em; color: #a7a9ac; font-weight: bold;}
+a.linkmenu:hover {text-decoration: none; font-family:Arial, Helvetica, sans-serif; font-size:1.000em; color: #ff6600; font-weight: bold;}
+
+/* LINKS HOMEPAGE (PRODUCTS) =========================*/
+
+a.link_logo:link{font-family:Arial, Helvetica, sans-serif;font-size:1.250em;color:#a7a9ac;text-decoration:none; padding-left:32px;}
+a.link_logo:active{font-family:Arial, Helvetica, sans-serif;font-size:1.250em;color:#a7a9ac;text-decoration:none;padding-left:32px;}
+a.link_logo:visited{font-family:Arial, Helvetica, sans-serif;font-size:1.250em;color:#a7a9ac;text-decoration:none;padding-left:32px;}
+a.link_logo:hover{font-family:Arial, Helvetica, sans-serif;font-size:1.250em;color:#000000;text-decoration:none;padding-left:32px;}
+
+
+#textauto {color: purple;}
+a.link_logo:hover #textauto {color: #000000;}
+
+#textfleet {color: #aaff33;}
+a.link_logo:hover #textfleet {color: #000000;}
+
+#textmoto {color: #ff6600;}
+a.link_logo:hover #textmoto {color: #000000;}
+
+#textmarine {color: #00aeef;}
+a.link_logo:hover #textmarine {color: #000000;}
+
+#registered {font-size: 12px;}
+
+#textguard {color:#FF6600;}
+
+
+/*=================PAGES BASIC STRUCTURE============================*/
+
+
+#pagedescription{ 
+  overflow:auto; 
+  width: 100%;
+  padding-top: 30px;
+   
+  
+}
+
+#left{
+width: 290px;
+padding-left: 32px;
+display:inline;
+
+/*background-color:#000099;*/
+
+}
+  
+#right{
+width: 530px;
+padding-left: 32px;
+display:inline;
+/*background-color:#FF0000;*/
+padding-right: 32px;
+}
+
+#left  { float:left;  }
+#right { float:right; }
+
+
+/*===============FEATURES======================================*/
+
+#features{
+overflow: auto;
+width: 100%;
+vertical-align:text-bottom;
+position:relative;
+display:inline-block;
+
+}
+
+#right-features{
+width: 330px;
+float: right;
+display:inline-block;
+vertical-align:text-top;
+position:relative;
+margin-bottom: 50px;
+
+
+
+}
+
+#left-features{
+	width: 158px;
+	float: left;
+	display:inline-block;
+	vertical-align:text-top;
+	position:relative;
+	margin-bottom: 50px;
+
 	
 }
 
-.container {
-width:1024px;
-margin:auto;
+#dropdown-container{
+width: 450px;
+float: right;
 }
 
 
-.body {
-	width:1024px;
-	height:747px;
+
+
 	
-}
 
-.header {
-	height:100px;
-	
-	
-}
 
-.bgimg {
-	width:774px;
-	height:430px;
-	margin-top:50px;
-	margin-left:142px;
-	background-image:url('../Images/login.gif');
-	background-repeat:no-repeat;
-}
 
-.space {
-	height:110px;
-}
 
-.tbox {
-	float:right;
-	width:510px;
-	height:90px;
-}
-
-.text {
-	float:left;
-	width:70px;
-	font-family:"Minion Pro";
-	font-size:14px;
-	color:#000000;
-}
-
-.box {
-	float:right;
-	width:200px;
-	margin-right:235px;
-}
-
-.pass {
-	float:left;
-	width:70px;
-	margin-top:8px;
-	font-family:"Minion Pro";
-	font-size:14px;
-	color:#000000;
-}
-
-.box1 {
-	float:right;
-	width:200px;
-	margin-top:5px;
-	font-family:Tahoma;
-	font-size:13px;
-	margin-right:235px;
-}
-
-.box1 a {
-	color:#4087a5;
-}
-
-.box2 {
-	float:right;
-	width:200px;
-	margin-top:5px;
-	margin-right:200px;
-}
-
-.box3 {
-	float:right;
-	width:180px;
-	margin-top:65px;
-	font-family:Tahoma;
-	font-size:13px;
-	margin-right:235px;
-}
-
-.box3 a {
-	color:#4087a5;
-	text-decoration:none;
-}
-
-.footer {
-	width:1024px;
-	height:77px;
-	text-align:right;
-	margin-top:85px;
-}

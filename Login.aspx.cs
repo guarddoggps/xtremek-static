@@ -32,7 +32,7 @@ public partial class Login : System.Web.UI.Page
 		}
 		else
 		{
-        	txtLogin.Focus();
+        	//txtLogin.Focus();
 		}
     }
 
@@ -43,7 +43,7 @@ public partial class Login : System.Web.UI.Page
 
     private void loginUser()
     {
-        bool success = false;
+       /* bool success = false;
         DataSet ds = new DataSet();
         AlarmasABC.Core.Admin.Login login = new AlarmasABC.Core.Admin.Login();
         ProcessLogin processLogin = new ProcessLogin();
@@ -89,6 +89,6 @@ public partial class Login : System.Web.UI.Page
         if (success)
         {
             Response.Redirect("Home.aspx");
-        }
+        }*/
     }
 }
