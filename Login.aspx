@@ -25,9 +25,6 @@
 
 </head>
 <body onload="getClientTimeZone();">
-<form id="form1" runat="server">
-
-	<asp:HiddenField ID="_timezone" runat="server" />
      
 	<div class="main">
     <div class="header">
@@ -61,7 +58,12 @@
 	      </ul>
 	    </div>
 	  </div>
-	  <div>
+	<div id="pagedescription">
+
+  <form id="form1" runat="server">
+
+	    <asp:HiddenField ID="_timezone" runat="server" />
+      
       <div id="login">
         <h2>Login</h2>
 
@@ -88,11 +90,18 @@
           Don't have an account? <a href="Activate.aspx">Activate</a> your account now!
         </div>
       </div>
-    </div>
-	  <div class="footer"><div class="footer-left">Copyright © 2011 Guard Dog. All rights reserved.</div>
+  
+    </form>
+
+</div>
+	  
+      
+      
+      <div class="footer"><div class="footer-left">Copyright © 2011 Guard Dog. All rights reserved.</div>
 	    <div id="socialmedia"><a href="http://www.facebook.com/pages/Guard-Dog-GPS/118770118204831"><img src="Images/facebook.png" alt="Find Us" border="0"/></a><a href="http://twitter.com/#!/GuardDogGPS"><img src="Images/twitter.png" alt="Follow Us" border="0"/></a></div>
 	  </div>
   </div>
-</form>
+
 </body>
 </html>
+
