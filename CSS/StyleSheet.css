@@ -160,18 +160,18 @@
 	text-decoration:underline;
 }
 .link {
-	width:100%;
-	height:40px;
-	background-image:url('../Images/Nav.gif');
-	background-repeat:no-repeat;
-	text-align:left;	
-	text-indent:5px;
+	width: 100%;
+	height: 40px;
+	background-image: url('../Images/Nav.gif');
+	background-repeat: no-repeat;
+	text-align: left;	
+	text-indent: 5px;
 	
 }
 
 .linked
 {
-       color:White; 
+  color: White; 
 }
 
 
@@ -203,6 +203,7 @@ border:3px solid #616c70;
 	background-repeat:repeat-x;    
   width: 100%;
   height: 82px;
+	border-top: 2px solid gray;
 }
 
 .button {
@@ -242,9 +243,8 @@ border:3px solid #616c70;
 	top: 120px;
 	left: 0px;
 	right: 0px;
-	bottom: 2px;
+	bottom: 0px;
   border-top: 2px solid gray;
-	border-bottom: 2px solid gray;
 
 	/*-moz-box-shadow: 0px 0px 5px 5px #cccccc;
 	-webkit-box-shadow: 0px 0px 5px 5px#cccccc;

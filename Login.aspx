@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>XtremeK Login Page</title>
+    <title>GuardDog GPS Tracking - Login</title>
     <!--<link href="CSS/XtremeKLogin.css" rel="stylesheet" type="text/css" />-->
 	<link href="CSS/style.css" rel="stylesheet" type="text/css" />
 	<link href="CSS/top-bar.css" rel="stylesheet" type="text/css" />

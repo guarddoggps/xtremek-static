@@ -86,7 +86,7 @@ public partial class Home : System.Web.UI.Page,ICallbackEventHandler
         _script.Append("{");
         _script.Append("try");
         _script.Append("{");
-        _script.Append("var splitter = $find('<%= RadSplitter1.ClientID %>');");
+        /*_script.Append("var splitter = $find('<%= RadSplitter1.ClientID %>');");*/
         _script.Append("var pane = $find('<%= MapPane.ClientID %>');");
         _script.Append("var iframe = pane.getExtContentElement(); ");
         _script.Append("var href=iframe.contentWindow.document.location;");

@@ -4,20 +4,21 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
-    <title>XtremeK Tracking System</title>
+    <title>GuardDog GPS Tracking - Map</title>
     <link href="CSS/StyleSheet.css" rel="stylesheet" type="text/css" />
     <link href="CSS/TreeCSS.css" rel="stylesheet" type="text/css" />
     <link href="MySkin/Splitter.MySkin.css" rel="stylesheet" type="text/css" />
     <link href="MySkin/TreeView.MySkin.css" rel="stylesheet" type="text/css" />
     <link href="MySkin/Menu.MySkin.css" rel="stylesheet" type="text/css" />
     <link href="Aeromazing/Window.Aeromazing.css" rel="stylesheet" type="text/css" />
+
     <script src="Js/rs.js" type="text/javascript"></script>
     <script src="Js/DateFormat.js" type="text/javascript"></script>
-	<script type="text/javascript" src="Js/jquery-1.js"></script>
-	<script type="text/javascript" src="Js/hovertip.js"></script>
-	<script type="text/javascript" src="Js/excanvas.js"></script>
-	<script type="text/javascript" src="Js/coolclock.js"></script> 
-	<script type="text/javascript" src="Js/moreskins.js"></script> 
+	  <script type="text/javascript" src="Js/jquery-1.js"></script>
+	  <script type="text/javascript" src="Js/hovertip.js"></script>
+	  <script type="text/javascript" src="Js/excanvas.js"></script>
+	  <script type="text/javascript" src="Js/coolclock.js"></script> 
+	  <script type="text/javascript" src="Js/moreskins.js"></script> 
     <script type="text/javascript">
       
    	function onClientNodeClickedHandler(sender, eventArgs) 
@@ -458,7 +459,8 @@
 		</telerik:RadWindowManager>
 
 		<telerik:RadSplitter ID="RadSplitter1" Width="100%" Height="100%" SplitBarsSize="0" EnableEmbeddedSkins="false" Skin="MySkin" runat="server" BorderWidth="0px" BorderSize="0" PanesBorderSize="0" ResizeMode="EndPane" Orientation="Horizontal">     
-		  	<telerik:RadPane CssClass="OverFlow" ID="TestPane" Scrolling="None" BorderWidth="10" Width="100%" runat="server">
+
+      <telerik:RadPane CssClass="OverFlow" ID="TestPane" Scrolling="None" BorderWidth="10" Width="100%" runat="server">
 				<telerik:RadSplitter ID="SplitterMap" Width="100%"  EnableEmbeddedSkins="false" Skin="MySkin" SplitBarsSize="2" runat="server" Orientation="Vertical">                        
 					<%--<telerik:RadPane ID="TreeViewPane" Collapsed="true" Width="200px" runat="server" >
 						<asp:UpdatePanel ID="UpdatePanel1" runat="server">
@@ -477,8 +479,9 @@
 		    	</telerik:RadSplitter> 
 		 	</telerik:RadPane>  
 
-			<telerik:RadPane ID="bar" Height="72px" CssClass="footer" BorderWidth="0" Scrolling="None" runat="server">
-			
+      <telerik:RadPane ID="bar" Height="72px" CssClass="footer" BorderWidth="0" Scrolling="None" runat="server">
+
+
 				<div class="footer_buttons">	
 
                     <asp:Timer ID="_Timer" runat="server" Interval="30000" OnTick="_Timer_Tick"></asp:Timer>
@@ -548,8 +551,8 @@
  
 				<canvas style="float: right;" id="clock" class="CoolClock:swissRail:34"></canvas>
 
-		    </telerik:RadPane>                  
-        </telerik:RadSplitter>
+		    </telerik:RadPane>        
+        </telerik:RadSplitter>    
 
 		<%--<embed style="position: absolute; bottom: 2px; right: 6px;" id=svgembed src="clock.svg" pluginspage="http://www.adobe.com/svg/viewer/install/"  type="image/svg+xml" runat="server" />--%>
 
